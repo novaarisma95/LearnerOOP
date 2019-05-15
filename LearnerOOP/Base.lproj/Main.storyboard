@@ -44,7 +44,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="UIButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FPg-eq-5sa"/>
-                                    <action selector="increaseAgeButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nju-bD-J5f"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -16,11 +16,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var learnerGenderLabel: UILabel!
     
     var learnerInstance : LearnerModel? ///youjust create copy of your LearnerModel
-    
+    var facilitatorInstance : FasilitatorModel?
    
     override func viewDidLoad() {
         super.viewDidLoad()
         learnerInstance = LearnerModel (nameLearner : "Nova", ageLearner: 23, genderLearner: "female", imageProfileLearner: "")
+        facilitatorInstance = FasilitatorModel (facilName: "David", facilAge: 24, facilGender: "male", facilImageProfile: "", facilPerk: "unlimited starbuck")
         updateUI()
     }
 
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
     
     @IBAction func increaseAgeButtonClicked(_ sender: UIButton)
     {
-        if let instance = learnerInstance {
+        if let instance = facilitatorInstance {
             instance.increaseAge()
         }
          updateUI()
