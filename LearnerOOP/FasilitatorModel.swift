@@ -13,7 +13,7 @@ class FasilitatorModel: LearnerModel {
     
     init(facilName: String, facilAge: Int, facilGender: String, facilImageProfile: String, facilPerk: String) {
         perk = facilPerk
-        super.init(nameLearner: <#T##String#>, ageLearner: <#T##Int#>, genderLearner: <#T##String#>, imageProfileLearner: <#T##String#>)
+        super.init(nameLearner: "nova", ageLearner: 23, genderLearner: "female", imageProfileLearner: "")
     }
 }
 
