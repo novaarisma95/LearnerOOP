@@ -14,6 +14,7 @@
 		51748B94228BD85C00482BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51748B92228BD85C00482BCF /* LaunchScreen.storyboard */; };
 		51748B9C228BE59600482BCF /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51748B9B228BE59600482BCF /* LearnerModel.swift */; };
 		51748BBC228C033B00482BCF /* FasilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51748BBB228C033B00482BCF /* FasilitatorModel.swift */; };
+		51748BBE228C099100482BCF /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51748BBD228C099100482BCF /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		51748B95228BD85C00482BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51748B9B228BE59600482BCF /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		51748BBB228C033B00482BCF /* FasilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasilitatorModel.swift; sourceTree = "<group>"; };
+		51748BBD228C099100482BCF /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				51748B89228BD85B00482BCF /* AppDelegate.swift */,
 				51748B8B228BD85B00482BCF /* ViewController.swift */,
 				51748B8D228BD85B00482BCF /* Main.storyboard */,
+				51748BBD228C099100482BCF /* RoundedButton.swift */,
 				51748B90228BD85C00482BCF /* Assets.xcassets */,
 				51748B92228BD85C00482BCF /* LaunchScreen.storyboard */,
 				51748B95228BD85C00482BCF /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51748BBC228C033B00482BCF /* FasilitatorModel.swift in Sources */,
+				51748BBE228C099100482BCF /* RoundedButton.swift in Sources */,
 				51748B8C228BD85B00482BCF /* ViewController.swift in Sources */,
 				51748B9C228BE59600482BCF /* LearnerModel.swift in Sources */,
 				51748B8A228BD85B00482BCF /* AppDelegate.swift in Sources */,
